@@ -6,6 +6,8 @@ We implement:
 
 ### Examples of illustrations
 
+![turbo_exp](assets/turbocharging_exp.png)
+
 
 ### Disclaimer
 
