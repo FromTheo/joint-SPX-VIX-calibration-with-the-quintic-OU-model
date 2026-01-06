@@ -13,4 +13,4 @@ We implement:
 
 ### Disclaimer
 
-Source code is avaible upon requests. Due to licensing restrictions, the raw data cannot be publicy released. 
+Full source code is avaible upon requests. Please contact me directly. Due to licensing restrictions, the raw data cannot be publicy released. 
