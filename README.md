@@ -3,7 +3,7 @@
 This repository reproduces the results of [Abi Jaber, Illand and Li (2023)](https://arxiv.org/pdf/2212.10917). 
 
 We implement:
-- an optimal quantization-based approach to compute expectations of VIX functionals (see `quantization_VIX/ipynb`),
+- an optimal quantization-based approach to compute expectations of VIX functionals (see `quantization_VIX.ipynb`),
 - the so-called turbocharging method introduced in [McCrickerd, and Pakkanen (2018)](https://arxiv.org/pdf/1708.02563) to drastically reduce the variance in SPX implied volatility computations (see `turbocharging.ipynb`), 
 - joint SPX/VIX calibration using a parametric forward variance curve (see `calibration_parametric_xi.ipynb`),
 - joint SPX/VIX calibration using the market forward variance curve, obtained via Carr-Madan stripping (see `genuine_calibration.ipynb`).
