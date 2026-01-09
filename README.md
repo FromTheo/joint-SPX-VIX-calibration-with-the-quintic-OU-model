@@ -14,6 +14,8 @@ We implement:
 
 ### Examples of illustrations
 
+![calib_parametric](assets/calibration_parametric_xi_exp_19.png)
+
 ![turbo_exp](assets/turbocharging_exp.png)
 
 ![iv_test](assets/test_iv_vix.png)
