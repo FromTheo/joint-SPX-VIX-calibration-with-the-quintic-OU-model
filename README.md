@@ -8,13 +8,15 @@ We implement:
 - joint SPX/VIX calibration using a parametric forward variance curve (see `calibration_parametric_xi.ipynb`),
 - joint SPX/VIX calibration using the market forward variance curve, obtained via Carr-Madan stripping (see `genuine_calibration.ipynb`).
 
-**Note 1:** Model parameters are calibrated using a two-stage optimization procedure combining Differential Evolution (DE) and a multi-start Nelder–Mead (NM) algorithm. DE is first used to perform a global exploration of the parameter space within prescribed bounds, which is well suited to the non-convex and noisy nature of the calibration objective. Local refinement is then carried out by initializing several Nelder–Mead runs from the best candidates of the final DE population, and the final calibrated parameters are selected as the best solution among all local optimizations.
+**Note 1:** Model parameters are calibrated using a two-stage optimization procedure combining Differential Evolution (DE) and a (multi-start) Nelder–Mead (NM) algorithm. 
 
 **Note 2:** We compare the performance of the (markovian) exponential kernel $K^\text{exp}$ with the fractional and shifted kernels $K^\text{frac}$ and $K^\text{shift}$, as illustrated in [Abi Jaber, Illand and Li (2024)](https://arxiv.org/pdf/2212.08297). 
 
 ### Examples of illustrations
 
 ![calib_parametric](assets/calibration_parametric_xi_exp_19.png)
+
+![calib_genuine](assets/calibration_genuine_exp.png)
 
 ![turbo_exp](assets/turbocharging_exp.png)
 
